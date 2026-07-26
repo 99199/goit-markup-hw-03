@@ -6,9 +6,11 @@
 
 .portfolio-list {
     display: flex;
+    
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+
 }
 
 .portfolio-list-item-description {
@@ -16,6 +18,9 @@
     flex-direction: column;
     padding: 32px 16px 32px 16px;
     row-gap: 8px;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
 }
 .portfolio-list-item > img{
     display: block;

@@ -1,25 +1,28 @@
-
-.hero{
-   
-    padding: 188px 0 188px 0;
+.hero {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
-.container-hero{
-     display: flex;
+
+
+
+.container-hero {
+    display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 48px;
-    padding: 0;
 }
-.hero-h1{
+
+.hero-h1 {
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
 }
-.hero-btn{
+
+.hero-btn {
     background-color: #4D5AE5;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     letter-spacing: 0.04em;
     max-width: 169px;
     padding: 16px 32px;
@@ -27,7 +30,8 @@
     border: none;
     white-space: nowrap;
 }
+
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
     background-color: #404BBF;
 }
