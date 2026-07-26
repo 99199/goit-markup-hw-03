@@ -14,7 +14,7 @@
 .portfolio-list-item-description {
     display: flex;
     flex-direction: column;
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px 32px 16px;
     row-gap: 8px;
 }
 .portfolio-list-item > img{
