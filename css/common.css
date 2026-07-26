@@ -26,12 +26,18 @@ h1,
 h2 {
     font-weight: bold;
 }
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 p{
     font-weight: 400;
     color: #434455;
+    margin: 0;
     
 }
 a{
@@ -57,4 +63,16 @@ address{
     font-weight: bold;
     letter-spacing: 0.03em;
     line-height: 1.33;
+}
+/***/
+.container{
+    max-width: 1158px;
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+.section{
+    padding: 120px 0;
+}
+.h2-sections{
+    margin-bottom: 72px;
 }

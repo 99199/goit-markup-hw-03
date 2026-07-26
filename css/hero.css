@@ -1,15 +1,28 @@
-.hero{
+.special-hero-container{
     background-color: #2E2F42;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 48px;
+    padding: 188px 0 188px 0;
 }
 .hero-h1{
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 .hero-btn{
     background-color: #4D5AE5;
     color:  #FFFFFF;
     letter-spacing: 0.04em;
+    max-width: 169px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    white-space: nowrap;
 }
 .hero-btn:hover,
 .hero-btn:focus{
