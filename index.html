@@ -37,10 +37,10 @@
                 </nav>
                 <address class="header-address">
                     <ul class="address-list">
-                        <li>
+                        <li class="address-list-item">
                             <a href="mailto:info@devstudio.com" class="email-num-color">info@devstudio.com</a>
                         </li>
-                        <li>
+                        <li class="address-list-item">
                             <a href="tel:+110001111111" class="email-num-color">+11 (000) 111-11-11</a>
                         </li>
                     </ul>
@@ -49,16 +49,14 @@
         </div>
     </header>
     <main>
-        <div class="special-hero-container">
-            <div class="container">
-                <section id="hero" class="hero section">
-                    <h1 class="hero-h1">Effective Solutions for Your Business</h1>
-                    <button type="button" class="hero-btn">Order Service</button>
-                </section>
+        <section id="hero" class="hero section">
+            <div class="container container-hero">
+                <h1 class="hero-h1">Effective Solutions for Your Business</h1>
+                <button type="button" class="hero-btn">Order Service</button>
             </div>
-        </div>
-        <div class="container">
-            <section id="features" class="features section">
+        </section>
+        <section id="features" class="features section">
+            <div class="container">
                 <h2 class="sr-only">Our Features</h2>
                 <ul class="list-features">
                     <li class="list-features-item">
@@ -84,9 +82,12 @@
                             problem-solving.</p>
                     </li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section id="team" class="team section">
+
+        <section id="team" class="team section">
+            <div class="container">
                 <h2 class="h2-sections">Our Team</h2>
                 <ul class="list-team">
                     <li class="team-list-item">
@@ -119,46 +120,50 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-            <section id="portfolio" class="portfolio section">
+            </div>
+        </section>
+
+
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
                 <h2 class="h2-sections">Our Portfolio</h2>
                 <ul class="portfolio-list">
-                    <li>
+                    <li class="portfolio-list-item">
                         <img src="./images/portfolio.jpg" alt="Banking App" width="360">
                         <div class="portfolio-list-item-description">
                             <h3>Banking App</h3>
                             <p>App</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="portfolio-list-item">
                         <img src="./images/Media.jpg" alt="Cashless Payment" width="360">
                         <div class="portfolio-list-item-description">
                             <h3>Cashless Payment</h3>
                             <p>Marketing</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="portfolio-list-item">
                         <img src="./images/portfolio-1.jpg" alt="Meditation App" width="360">
                         <div class="portfolio-list-item-description">
                             <h3>Meditation App</h3>
                             <p>App</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="portfolio-list-item">
                         <img src="./images/portfolio-2.jpg" alt="Taxi Service" width="360">
                         <div class="portfolio-list-item-description">
                             <h3>Taxi Service</h3>
                             <p>Marketing</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="portfolio-list-item">
                         <img src="./images/portfolio-3.jpg" alt="Screen Illustrations" width="360">
                         <div class="portfolio-list-item-description">
                             <h3>Screen Illustrations</h3>
                             <p>Design</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="portfolio-list-item">
                         <img src="./images/portfolio-4.jpg" alt="Online Courses" width="360">
                         <div class="portfolio-list-item-description">
                             <h3>Online Courses</h3>
@@ -166,12 +171,13 @@
                         </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </main>
     <footer id="footer" class="footer">
         <div class="container">
-            <section class="section section-footer">
+            <section>
                 <div class="footer-copyright-container">
                     <a href="./index.html" class="logo footer-logo"><span class="focus-color-web">WEB</span>STUDIO</a>
                     <p class="footer-description">Increase the flow of customers and sales for your business with

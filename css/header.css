@@ -1,22 +1,36 @@
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
+
+}
+
+.header {
     border-bottom: 1px solid #E7E9FC;
 }
-.header-logo{
-    margin-right: 74px;
+
+.header-logo {
+    margin-right: 76px;
 }
+
 .email-num-color {
     color: #434455;
 }
-.nav-list,.address-list{
+
+.nav-list,
+.address-list {
     display: flex;
-    padding: 24px 0 24px 0;
     column-gap: 40px;
 }
-.header-address{
+
+.header-address {
     margin: 0 0 0 auto;
 }
-.nav-list-item > a{
+
+.nav-list-item {}
+
+.nav-list-item>a,
+.address-list-item>a {
     font-weight: 500;
+    padding: 24px 0 24px 0;
+    display: block;
 }

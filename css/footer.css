@@ -1,9 +1,10 @@
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding: 100px 0;
 }
 .section-footer{
-    padding: 100px 0;
+    
 }
 .footer-description {
     color: #F4F4FD;
@@ -13,7 +14,7 @@
      color: #F4F4FD;
 }
 .footer-copyright-container{
-    max-width: 269px;
+    max-width: 264px;
     display: flex;
     flex-direction: column;
     row-gap: 16px;

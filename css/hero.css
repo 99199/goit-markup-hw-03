@@ -1,12 +1,15 @@
-.special-hero-container{
+
+.hero{
+   
+    padding: 188px 0 188px 0;
     background-color: #2E2F42;
 }
-.hero{
-    display: flex;
+.container-hero{
+     display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 48px;
-    padding: 188px 0 188px 0;
+    padding: 0;
 }
 .hero-h1{
     color: #FFFFFF;
